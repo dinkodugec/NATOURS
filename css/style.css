@@ -38,6 +38,7 @@ body {
 }
 
 .logo-box {
+  /*  position of logo */
   position: absolute;
   top: 40px;
   left: 40px;
