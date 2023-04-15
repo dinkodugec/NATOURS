@@ -2,7 +2,7 @@
   max-width: $grid-width;
   /*  width: 114opx;  this is standard, but we make in rem, and also max-width, if we have enough space that get width we specify, 
   if we not have, if view port is smaller then width we specify, then will fill 100% available space   */
-  background-color: #eee;
+
   margin: 0 auto; //trick to center block element in another block element; left and right will be the same
 
   &:not(:last-child) {
@@ -14,7 +14,7 @@
 
   [class^="col-"] {
     //attribute selector, it will select all element of class that starts with ^=col-
-    background-color: orangered;
+
     float: left;
 
     &:not(:last-child) {
