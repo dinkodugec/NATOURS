@@ -8,6 +8,7 @@
     url(../img/hero.jpg);
   background-size: cover; /*  whatever a width of viewport is it will try to fit width of element */
   background-position: top; /*  whatever viewport is, top of image always stay the same */
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
   &__logo-box {
